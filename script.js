@@ -6,7 +6,7 @@
         addButton.addEventListener('click', function () {
             // Create new task
             const taskItem = document.createElement('li');
-            taskItem.innerText = taskInput.value;
+            taskItem.innerText = taskInput.value; 
 
             // Add the new task 
             taskList.appendChild(taskItem);
