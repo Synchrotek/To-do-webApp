@@ -3,7 +3,7 @@
         const taskList = document.getElementById('taskList');
 
         // event listener 4 button to handle adding tasks
-        addButton.addEventListener('click', function (x, y) {
+        addButton.addEventListener('click', function (x) {
             // Create new task
             const taskItem = document.createElement('li');
             taskItem.innerText = taskInput.value;
