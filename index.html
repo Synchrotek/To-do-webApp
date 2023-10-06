@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="contaienr">
+        <div class="header">
+            <h1>To-Do App</h1>
+        </div>
+        <header>
+            <div class="new-todo">
+                <form action="" id="todoform">
+                    <input type="text" name="newtodo" id="newtodo" placeholder="Enter Task .." />
+                    <div>
+                        <select id="priority" name="priority">
+                            <option value="1">High</option>
+                            <option value="2">Medium</option>
+                            <option value="3">Low</option>
+                        </select>
+                        <input type="date" id="deadline" placeholder="Select Deadline" />
+                    </div>
+                    <div>
+                        <button id="todoformBtn" type="submit">
+                            Add
+                        </button>
+                        <button id="sort-todos" type="button"></button>
+                    </div>
+            </div>
+            </form>
+        </header>
+
+        <hr>
+
+        <div id="todo-list">
+
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+<script src="https://kit.fontawesome.com/6ca9790e31.js" crossorigin="anonymous"></script>
+
+</html>
